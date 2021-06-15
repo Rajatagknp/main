@@ -1,0 +1,787 @@
+*{
+    position: absolute;
+    opacity: 1;
+    text-align: left;
+    letter-spacing: 0.77px;
+    color: #6C6C6C;
+}
+
+.page_footer{
+    top: 50px;
+    .back_button,.leave_page_button,.next_button{
+        left: 5vw;
+        height: 25px;
+        width: 45px;
+        background-color: blue;
+        border: 0px;
+        border-radius: 5px;
+        color: white; 
+    }
+    .leave_page_button{
+        left: calc(50vw - 91px/2);
+        width: 91px;
+    }
+    .next_button{
+        left: calc(95vw - 45px);
+    }
+}
+
+.second_page{
+    top: 100px;
+    width: 100vw;
+    height: 100vh;
+    background: #307FE2 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    .remotestate{
+        top: 50vh;
+        width: 100vw;
+        text-align: center;
+        font: normal normal 900 30px/48px Segoe UI;
+        letter-spacing: 1.35px;
+        color: #FFFFFF;
+    }
+}
+
+.third_page{
+    top: 100px;
+    width: 100vw;
+    height: 812px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    .third_page_header{
+        width: 375px;
+        height: 354px;
+        left: calc(50vw - 375px/2);
+        background: transparent url('../../../assets/img_leave/Path\ 159.svg') 0% 0% no-repeat padding-box;
+    }
+    .third_page_header_body{
+        top: 31px;
+        left: calc(50vw - 321px/2);
+        width: 321px;
+        height: 292px;
+        background: transparent url('../../../assets/img_leave/login\ screen\ image.svg') 0% 0% no-repeat padding-box;
+    }
+    .third_page_body{
+        .loginid, .password{
+            top: 392px;
+            left: calc(50vw - 230px/2);
+            width: 230px;
+            height: 43px;
+            border: 2px solid #307FE2;
+            border-radius: 12px;
+        }
+        .password{
+            top: 448px;
+        }
+        .login_button{
+            top: 514px;
+            left: calc(50vw - 112px/2);
+            width: 112px;
+            height: 43px;
+            border-radius: 8px;
+            border: 0px;
+            background-color: #307FE2 ;
+            text-align: center;
+            color: white;
+            font: normal normal 900 17/27 Segoe UI;
+        }
+        .or{
+            top: 572px;
+            left: calc(50vw - 21px/2);
+            width: 21px;
+            height: 21px;
+            font: normal normal normal 17px/27px Segoe UI;
+        }
+        .sign_in_with{
+            top: 599px;
+            left: calc(50vw - 100px/2);
+            width: 100px;
+            height: 21px;
+            font: normal normal normal 17px/27px Segoe UI;
+        }
+        .google_button{
+            top: 638px;
+            left: calc(50vw - 104px/2);
+            width: 104px;
+            height: 33px;
+            border: 1px solid #307FE2;
+            border-radius: 8px;
+            .google_symbol{
+                top: 8px;
+                left: 10px;
+                width: 19px;
+                height: 19px;
+                background: transparent url('../../../assets/img_leave/google-symbol.svg') 0% 0% no-repeat padding-box;
+            }
+            .google_text{
+                top: 8px;
+                left: 36px;
+                width: 58px;
+                font: normal normal 900 17px/20px Segoe UI;
+                color: #307FE2;
+            }
+        }
+    }
+    .third_page_footer{
+        top: 765px;
+        left: calc(50vw - 175px/2);
+        width: 175px;
+        height: 25px;
+        background: transparent url('../../../assets/img_leave/Remotestate\ bottom\ logo.svg') 0% 0% no-repeat padding-box;
+    }
+}
+
+.number_page_header{
+    width: 100vw;
+    height: 55px;
+    background: #307FE2 0% 0% no-repeat padding-box;
+    .back_arrow{
+        top: 21px;
+        left: 8vw;
+        width: 20px;
+        height: 14px;
+        background: transparent url('../../../assets/img_leave/Icon\ ionic-arrow-round-back.svg') 0% 0% no-repeat padding-box;
+    }
+    .leave_app{
+        top: 15px;
+        left: 20vw;
+        width: 60vw;
+        font: normal normal 900 16px/26px Segoe UI;
+        letter-spacing: 0.72px;
+        color: #FFFFFF;
+    }
+    .bell_icon,.exit_page_icon{
+        top: 19px;
+        left: 80vw;
+        width: 21px;
+        height: 21px;
+        background: transparent url('../../../assets/img_leave/notification\ icon.svg') 0% 0% no-repeat padding-box;
+    }
+    .exit_page_icon{
+        left: 92vw;
+        background: transparent url('../../../assets/img_leave/logout.svg') 0% 0% no-repeat padding-box;
+    }
+}
+
+.fourth_page{
+    width: 99.9vw;
+    background-color: whitesmoke;
+}
+
+.fifth_page,.seven_page{
+    top: 100px;
+    width: 100vw;
+    height: 812px;
+    background: #F5F9FF 0% 0% no-repeat padding-box;
+    .page_body{
+        top: 77px;
+        left: 4vw;
+        width: 90vw;
+        height: 237px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 4px 3px 6px #307FE233;
+        border: 1px solid #307FE2;
+        border-radius: 11px;
+        .body_one,.body_two,.body_three{
+            top: 20px;
+            left: 4vw;
+            width: 82vw;
+            height: 59px;
+            background: #F5F9FF 0% 0% no-repeat padding-box;
+            .body_logo{
+                top: 8.52px;
+                left: 10px;
+                width: 100%;
+                height: 100%;
+                background: transparent url('../../../assets/img_leave/apply_leave/sneeze.svg') 0% 0% no-repeat padding-box;
+            }
+            .body_text{
+                top: 19px;
+                left: 63px;
+                width: 150px;
+                font: normal normal 900 16px/32px Segoe UI;
+            }
+            .body_number{
+                top: 14px;
+                right: 2vw;
+                font: normal normal 900 25px/32px Segoe UI;
+                letter-spacing: 1.13px;
+                color: #FF6F01;
+            }
+        }
+        .body_two{
+            top: 89px;
+            .body_logo{
+                width: 100%;
+                height: 100%;
+                background: transparent url('../../../assets/img_leave/apply_leave/sunbed.svg') 0% 0% no-repeat padding-box;
+            }
+        }
+        .body_three{
+            top: 159px;
+            .body_logo{
+                width: 100%;
+                height: 100%;
+                background: transparent url('../../../assets/img_leave/apply_leave/annual.svg') 0% 0% no-repeat padding-box;
+            }
+        }
+    }
+    .apply_leave{
+        top: 332px;
+        left: calc(50vw - 185px/2);
+        width: 185px;
+        height: 50px;
+        background: #307FE2 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        text-align: center;
+        font: normal normal 900 16px/30px Segoe UI;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    .leave_his{
+        top: 400px;
+        width: 100vw;
+        height: 17px;
+        text-align: center;
+        font: normal normal 900 14px/36px Segoe UI;
+        letter-spacing: 0.63px;
+        color: #307FE2;
+    }
+    .leave_table_one,.leave_table_two{
+        top: 10px;
+        .table_header{
+            top: 424px;
+            left: 5vw;
+            width: 90vw;
+            height: 49px;
+            border: 1px solid var(--unnamed-color-307fe2);
+            background: #E2EEFD 0% 0% no-repeat padding-box;
+            border: 1px solid #307FE2;
+            border-radius: 13px 13px 0px 0px;
+            .table_logo_one,.table_logo_two{
+                top: 11.1px;
+                left: 6.93px;
+                width: 25px;
+                height: 29px;
+                background: transparent url('../../../assets/img_leave/apply_leave/Icon\ awesome-calendar-alt.svg') 0% 0% no-repeat padding-box;
+            }
+            .table_logo_two{
+                left: 168px;
+            }
+            .to{
+                top: 14px;
+                left: 137px;
+                width: 20px;
+                font: normal normal 900 18px/27px Segoe UI;
+                letter-spacing: 0.81px;
+                color: #307FE2;
+            }
+            .table_date_one,.table_date_two{
+                top: 19px;
+                left: 34px;
+                width: 92px;
+                font: normal normal normal 14px/20px Segoe UI;
+                letter-spacing: 0.63px;
+                color: #307FE2;
+            }
+            .table_date_two{
+                left: 195px;
+            }
+            .edit_logo{
+                top: 16px;
+                right: 2vw;
+                width: 19px;
+                height: 19px;
+                background: transparent url('../../../assets/img_leave/apply_leave/Icon\ material-edit.svg') 0% 0% no-repeat padding-box;
+            }
+        }
+        .table_body{
+            top: 469px;
+            left: 5vw;
+            width: 90vw;
+            height: 125px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #307FE2;
+        }
+    }
+    .leave_table_two{
+        top: 197px;
+    }
+}
+
+.seven_page{
+    .edit_leave{
+        top: 445px;
+        right: 6.5vw;
+        width: 221px;
+        height: 139px;
+        background: #E2EEFD 0% 0% no-repeat padding-box;
+        border: 1px solid #307FE2;
+        border-radius: 10px;
+        .close_icon{
+            top: 12px;
+            right: 12px;
+            width: 17px;
+            height: 17px;
+            background: transparent url('../../../assets/img_leave/Icon\ ionic-ios-close-circle-outline.svg') 0% 0% no-repeat padding-box;
+        }
+        .modify,.cancle,.remove{
+            top: 53px;
+            left: 12px;
+            width: 142px;
+            height: 17px;
+            background: transparent url('../../../assets/img_leave/Modify\ Leave.svg') 0% 0% no-repeat padding-box;
+        }
+        .cancle{
+            top: 83px;
+            background: transparent url('../../../assets/img_leave/Cancle\ Leave.svg') 0% 0% no-repeat padding-box;
+        }
+        .remove{
+            top: 113px;
+            background: transparent url('../../../assets/img_leave/Remove\ from\ History.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.six_page,.fourteen_page{
+    top: 100px;
+    width: 100vw;
+    height: 812px;
+    background: #F5F9FF 0% 0% no-repeat padding-box;
+    .text{
+        .form_date,.to_date,.leave_type,.total_day,.reason{
+            top: 89px;
+            left: 15px;
+            width: 117px;
+            height: 22px;
+            font: normal normal 900 18px/20px Segoe UI;
+            letter-spacing: 0.81px;
+            color: #307FE2;
+        }
+        .to_date{
+            top: 156px;
+        }
+        .leave_type{
+            top: 221px;
+        }
+        .total_day{
+            top: 290px;
+        }
+        .reason{
+            top: 359px;
+        }
+    }
+    .table{
+        .form_date_table,.to_date_table,.leave_type_table,.total_day_table,.reason_table{
+            top: 77px;
+            left: 138px;
+            width: calc(98vw - 138px);
+            height: 46px;
+            background: #E2EEFD 0% 0% no-repeat padding-box;
+            border: 1px solid #307FE2;
+            border-radius: 8px;
+            .logo{
+                top: 9px;
+                right: 2vw;
+                width: 25px;
+                height: 30px;
+                background: transparent url('../../../assets/img_leave/apply_leave/Icon\ awesome-calendar-alt.svg') 0% 0% no-repeat padding-box;
+            }
+            .p{
+                left: 15px;
+            }
+        }
+        .to_date_table{
+            top: 144px;
+        }
+        .leave_type_table{
+            top: 209px;
+            .logo{
+                top: 19px;
+                background: transparent url('../../../assets/img_leave/Icon\ awesome-angle-down.svg') 0% 0% no-repeat padding-box;
+            }
+        }
+        .total_day_table{
+            top: 276px;
+        }
+        .reason_table{
+            top: 355px;
+            height: 169px;
+        }
+    }
+    .submit_button{
+        top: 557px;
+        left: calc(50vw - 118px/2);
+        width: 118px;
+        height: 50px;
+        background: #307FE2 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        border: 0;
+        opacity: 1;
+        text-align: center;
+        font: normal normal 900 16px/26px Segoe UI;
+        color: #FFFFFF;
+    }
+}
+
+.fourteen_page{
+    .fourteen_page_background{
+        top: 55px;
+        width: 99.9vw;
+        height: 757px;
+        background: #E5E5E5 0% 0% no-repeat padding-box;
+        opacity: 0.66;
+    }
+    .fourteen_page_upper{
+        top: 207px;
+        right: 1.8vw;
+        width: 222px;
+        height: 185px;
+        background: #E2EEFD 0% 0% no-repeat padding-box;
+        border: 1px solid #307FE2;
+        border-radius: 8px;
+        .upper_logo{
+            top: 16px;
+            left: 190.38px;
+            width: 13px;
+            height: 8px;
+            transform: matrix(0, -1, 1, 0, 0, 0);
+            color: blue;
+        }
+        .select,.sick,.casual,.other{
+            top: 12px;
+            left: 16px;
+            width: 99px;
+            font: normal normal normal 14px/36px Lato;
+            letter-spacing: 0.63px;
+            color: #6C6C6C;
+        }
+        .sick{
+            top: 62px;
+        }
+        .casual{
+            top: 104px;
+        }
+        .other{
+            top: 146px;
+        }
+        .hor_line_one,.hor_line_two,.hor_line_three{
+            top: 38.5px;
+            left: 16px;
+            width: 191px;
+            height: 0px;
+            border: 1px solid #307FE2;
+            opacity: 0.27;
+        }
+        .hor_line_two{
+            top: 92.5px;
+        }
+        .hor_line_three{
+            top: 134.5px;
+        }
+    }
+}
+
+.eight_page,.nine_page{
+    top: 100px;
+    .page_body{
+        top: 55px;
+        width: 99.5vw;
+        height: 757px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        backdrop-filter: blur(26px);
+        -webkit-backdrop-filter: blur(26px);
+        .complete_logo{
+            top: 139px;
+            left: calc(50vw - 111px/2);
+            width: 111px;
+            height: 111px;
+            background: transparent url('../../../assets/img_leave/Complete.svg') 0% 0% no-repeat padding-box;
+        }
+        .body_body{
+            top: 302px;
+            left: 10vw;
+            width: 80vw;
+            height: 156px;
+            background: #E2EEFD 0% 0% no-repeat padding-box;
+            border: 1px solid #307FE2;
+            border-radius: 10px;
+            .text{
+                top: 17px;
+                left: 5vw;
+                width: 70vw;
+                height: 63px;
+                text-align: center;
+                letter-spacing: 1.8px;
+                color: #307FE2;
+                font: normal normal normal 18px/21px Segoe UI;
+            }
+            .continue{
+                top: 98px;
+                left: calc(40vw - 146px/2);
+                width: 146px;
+                height: 36px;
+                background: #307FE2 0% 0% no-repeat padding-box;
+                border: 1px solid #307FE2;
+                border-radius: 8px;
+                text-align: center;
+                font: normal normal normal 18px/21px Segoe UI;
+                letter-spacing: 1.8px;
+                color: #FFFFFF
+            }
+        }
+    }
+}
+
+.nine_page{
+    .page_body{
+        .complete_logo{
+            width: 111px;
+            height: 111px;
+            background: transparent url('../../../assets/img_leave/Complete\ \(1\).svg') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.ten_page,.thirteen_page{
+    top: 100px;
+    .did_one,.did_two{
+        top: 77px;
+        left: 3vw;;
+        width: 90vw;
+        font: normal normal 900 18px/36px Segoe UI;
+        letter-spacing: 0.81px;
+        color: #307FE2
+    }
+    .did_two{
+        top: 374px;
+    }
+    .box_one,.box_two,.box_three{
+        top: 111px;
+        left: 3vw;
+        width: 94vw;
+        height: 251px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #307FE2;
+        border-radius: 7px;
+    }
+    .box_two{
+        top: 408px;
+    }
+    .submit_button{
+        top: 671px;
+        left: calc(50vw - 118px/2);
+        width: 118px;
+        height: 50px;
+        background: #307FE2 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        border: 0;
+        color: #FFFFFF;
+        text-align: center;
+        font: normal normal 900 16px/26px Segoe UI;
+    }
+    .box_three{
+        top: 733px;
+        height: 69px;
+        .his_icon,.cel_icon{
+            top: 24px;
+            left: 2vw;
+            width: 25px;
+            height: 29px;
+            background: transparent url('../../../assets/img_leave/History\ icon.svg') 0% 0% no-repeat padding-box;
+        }
+        .pre_sta{
+            top: 24px;
+            left: 8vw;
+            width: 160px;
+            font: normal normal normal 18px/20px Segoe UI;
+            letter-spacing: 0.81px;
+            color: #307FE2;
+        }
+        .cel_icon{
+            top: 20px;
+            left: 88vw;
+            background: transparent url('../../../assets/img_leave/Icon\ awesome-calendar-alt.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.thirteen_page{
+    .box_one,.box_two{
+        .para{
+            font: normal normal normal 20px/27px Segoe UI;
+            letter-spacing: 0px;
+            color: #707070;
+            left: 10px;
+        }
+    }
+    .submit_button{
+        left: calc(50vw - 163px/2);
+        width: 163px;
+    }
+}
+
+.eleven_page{
+    top: 100px;
+    .header{
+        top: 68px;
+        .last_five{
+            left: 3vw;
+            width: 260px;
+            font: normal normal 900 18px/36px Segoe UI;
+            letter-spacing: 0.81px;
+            color: #307FE2;
+        }
+        .header_logo{
+            left: calc(97vw - 25px);
+            width: 25px;
+            height: 29px;
+            border: 1px solid var(--unnamed-color-307fe2);
+            background: transparent url('../../../assets/img_leave/Icon\ awesome-calendar-alt.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+    .his_one,.his_two,.his_three,.his_four,.his_five{
+        top: 105px;
+        left: 3vw;
+        width: 94vw;
+        height: 147px;
+        background: #EDF2F9 0% 0% no-repeat padding-box;
+        box-shadow: 4px 3px 6px #307FE233;
+        border: 1px solid #307FE2;
+        border-radius: 5px;
+        .his_header{
+            top: 10px;
+            .his_header_cel{
+                left: 10px;
+                width: 19px;
+                height: 21px;
+                background: transparent url('../../../assets/img_leave/Calendar.svg') 0% 0% no-repeat padding-box;
+            }
+            .his_date{
+                top: 2px;
+                left: 41px;
+                width: 110px;
+                font: normal normal normal 16px/16px Segoe UI;
+                letter-spacing: 0.72px;
+                color: #307FE2;
+            }
+            .his_edit{
+                left: calc(92vw - 20px);
+                width: 20px;
+                height: 20px;
+                background: transparent url('../../../assets/img_leave/Edit\ 2\ icon.svg') 0% 0% no-repeat padding-box;
+            }
+        }
+        .his_body{
+            top: 40px;
+            width: 97vw;
+            font: normal normal normal 16px/20px Segoe UI;
+            letter-spacing: 0.72px;
+            color: #6C6C6C;
+            .his_hor_one,.his_hor_two{
+                left: 6px;
+                width: 3px;
+                height: 22px;
+                background: #6C6C6C57 0% 0% no-repeat padding-box;
+            }
+            .his_hor_two{
+                top: 75px;
+            }
+            .did_yes{
+                left: 15px;
+            }
+            .black_dot{
+                top: 34px;
+                left: 15px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #6C6C6C 0% 0% no-repeat padding-box;
+            }
+            .body_text{
+                top: 27px;
+                left: 27px;
+            }
+            .did_tod{
+                top: 75px;
+                left: 15px;
+            }
+        }
+        .his_show_more{
+            top: 115px;
+            left: calc(92vw - 53px);
+            width: 53px;
+            height: 19px;
+            font: normal normal normal 16px/26px Segoe UI;
+            letter-spacing: 0.72px;
+            color: #307FE2;
+        }
+    }
+    .his_two{
+        top: 270px;
+    }
+    .his_three{
+        top: 440px;
+    }
+    .his_four{
+        top: 605px;
+    }
+    .his_five{
+        top: 770px;
+    }
+}
+
+.twelve_page{
+    top: 100px;
+    .home_img{
+        top: 85px;
+        left: calc(50vw - 345px/2);
+        width: 345px;
+        height: 160px;
+        background: transparent url('../../../assets/img_leave/pexels-julius-silver-753626.png') 0% 0% no-repeat padding-box;
+        @media only screen and (min-width: 690px) {
+            left: calc(50vw - 690px/2);
+            width: 690px;
+            height: 320px;
+            background: transparent url('../../../assets/img_leave/pexels-julius-silver-753626@2x.png') 0% 0% no-repeat padding-box;
+        }
+    }
+    .header{
+        top: 272px;
+        @media only screen and (min-width: 690px) {
+            top: 272px+160px;
+        }
+        left: 2.5vw;
+        width: 95vw;
+        height: 50px;
+        background: #307FE2 0% 0% no-repeat padding-box;
+        .holiday,.date{
+            top: 8px;
+            left: calc(24vw - 50px);
+            font: normal normal normal 18px/36px Lato;
+            letter-spacing: 0.81px;
+            color: #FFFFFF;
+        }
+        .date{
+            left: calc(74vw - 40px);
+        }
+        .ver_line{
+            top: 7.5px;
+            left: 47.5vw;
+            width: 0px;
+            height: 32px;
+            border: 1px solid #F5F9FF;
+        }
+    }
+    .body{
+        top: 330px;
+        @media only screen and (min-width: 690px) {
+            top: 330px+160px;
+        }
+        left: 14px;
+        width: 98vw;
+        font: normal normal normal 14px/36px Lato;
+        letter-spacing: 0.63px;
+        color: #6C6C6C;
+    }
+}

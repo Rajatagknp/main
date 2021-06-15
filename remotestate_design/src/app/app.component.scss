@@ -1,0 +1,16 @@
+.table{
+    border: 1px solid black;
+}
+.table_head{
+    border: 1px solid black;
+}
+
+.page_header{
+    .home_button,.leave_page_button{
+        background-color: blue;
+        border: 0px;
+        border-radius: 5px;
+        height: 25px;
+        color: white; 
+    }
+}

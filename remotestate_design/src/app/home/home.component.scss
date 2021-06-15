@@ -1,0 +1,1016 @@
+*{
+    position:absolute;
+}
+
+.front_page{
+    left: -10px;
+    width: 1376px;
+    height: 770px;
+    background: transparent url('../../assets/img/Mask\ Group\ 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 24px/40px Lato;
+    letter-spacing: 0.96px;
+    color: #FFFFFF;
+    .website_header{
+        .remotestate_logo{
+            top: 36px;
+            left: 19px;
+            width: 293px;
+            height: 34px;
+            background: transparent url('../../assets/img/Group\ 2.svg') 0% 0% no-repeat padding-box;
+        }
+        .website_header_body{
+            top: 39px;
+            width: 853px;
+            height: 43px;
+            .about{
+                left: 482px;
+            }
+            .services{
+                left: 603px;
+            }
+            .technologies{
+                left: 748px;
+            }
+            .portfolio{
+                left: 933px;
+            }
+            .blog{
+                left: 1080px;
+            }
+            .contact_button{
+                top: -5px;
+                left: 1210px;
+                width: 125px;
+                height: 43px;
+                background: #307FE2 0% 0% no-repeat padding-box;
+                border-radius: 5px;
+                .contact_button_text{
+                    left: 1231px-1210px;
+                }
+            }
+        }
+    }
+    .front_page_body{
+        left: 76px;
+        font: normal normal 900 50px/25px Lato;
+        letter-spacing: 2px;
+        .redefine{
+            top: 270px;
+        }
+        .mobile_experience{
+            top: 336px;
+            width: 449px;
+        }
+        .front_body{
+            top: 429px;
+            width: 674px;
+            font: normal normal normal 24px/29px Lato;
+            letter-spacing: 0px;
+        }
+        .click{
+            top: 520px;
+            width: 213px;
+            height: 64px;
+            background: #307FE2 0% 0% no-repeat padding-box;
+            border-radius: 5px;
+            .click_text{
+                top: 539px-520px;
+                left: 157px-76px;
+                font: normal normal normal 22px/27px Lato;
+            }
+        }
+    }
+    .frontpage_footer{
+        top: 675px;
+        left: 1263px;
+        width: 72px;
+        height: 72px;
+        background: transparent url('../../assets/img/Group\ 40.svg') 0% 0% no-repeat padding-box;
+    }
+}
+
+.second_page{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #03172C;
+    opacity: 1;
+    .second_page_head{
+        top: 813px;
+        left: 270px;
+        width: 842px;
+        font: normal normal normal 54px/65px Lato;
+    }
+    .second_page_head_foot{
+        top: 907px;
+        left: 201px;
+        width: 964px;
+        font: normal normal normal 22px/27px Lato;
+        color: #307FE2;
+    }
+    .second_page_body_1{
+        top: 1029px;
+        left: 233px;
+        width: 450px;
+        height: 186px;
+        color: #0071FF;
+        .thosand{
+            top: 1074px-1029px;
+            font: normal normal 900 155px/186px Lato;
+        }
+        .fivehund{
+            top: 1029px-1029px;
+            left: 741px-233px;
+            font: normal normal 900 116px/139px Lato;
+        }
+        .dollar_hund{
+            top: 1192px-1029px;
+            left: 737px-233px;
+            font: normal normal 900 116px/139px Lato;
+        }
+        font: normal normal 900 35px/42px Lato;
+        .product_deliver{
+            top: 1245px-1029px;
+            left: 262px-233px;
+            color: #1E3F63;
+        }
+        .creative_nerd{
+            top: 1149px-1029px;
+            left: 741px-233px;
+            width: 300px;
+            color: #1E3F63;
+        }
+        .investment{
+            top: 1310px-1029px;
+            left: 741px-233px;
+            width: 589px;
+            color: #1E3F63;
+        }
+        .second_page_hor_line{
+            top: 1065px-1029px;
+            left: 712px-233px;
+            width: 0px;
+            height: 267px;
+            border: 1px solid #03172C;
+            opacity: 0.5;
+        }
+        .second_page_ver_line{
+            top: 1202px-1029px;
+            left: 716px-233px;
+            width: 357px;
+            height: 0px;
+            border: 1px solid #03172C;
+            opacity: 0.5;
+        }
+    }
+    .second_page_footer{
+        top: 1438px;
+        width: 967px;
+        height: 53px;
+        .vorto{
+            left: 200px;
+            width: 161px;
+            height: 46px;
+            background: transparent url('../../assets/img/Group\ 410.svg') 0% 0% no-repeat padding-box;
+        }
+        .dell{
+            left: 428px;
+            width: 131px;
+            height: 41px;
+            background: transparent url('../../assets/img/Path\ 2.svg') 0% 0% no-repeat padding-box;
+        }
+        .micromax{
+            top: 10px;
+            left: 626px;
+            width: 160px;
+            height: 30px;
+            background: transparent url('../../assets/img/Path\ 1.svg') 0% 0% no-repeat padding-box;
+        }
+        .ixigo{
+            left: 853px;
+            width: 94px;
+            height: 49px;
+            background: transparent url('../../assets/img/ixigo.svg') 0% 0% no-repeat padding-box;
+        }
+        .precium{
+            left: 1018px;
+            width: 149px;
+            height: 46px;
+            background: transparent url('../../assets/img/Logo\ Black.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.third_page{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    .third_page_body_footer2{
+        top: 2225px;
+        left: 0px;
+        width: 1366px;
+        height: 230px;
+        background: #307FE2 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .third_page_body{
+        top: 1606px;
+        left: 0px;
+        width: 1165px;
+        height: 721px;
+        background: transparent url('../../assets/img/Group\ 411.png') 0% 0% no-repeat padding-box;
+        .third_page_body_header{
+            top: 1666px-1606px;
+            left: 300px;
+            width: 625px;
+            height: 52px;
+            font: normal normal normal 44px/52px Lato;
+        }
+        .third_page_body_body{
+            top: 1733px-1606px;
+            left: 300px;
+            width: 840px;
+            height: 85px;
+            font: normal normal normal 24px/29px Lato;
+        }
+        .third_page_body_footer1{
+            top: 2236px-1606px;
+            left: 1069px;
+            width: 55px;
+            height: 55px;
+            background: transparent url('../../assets/img/Icon\ ionic-ios-arrow-dropright.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+    .third_page_body_footer{
+        .skilled, .skilled_se, .skilled_th{
+            top: 2360px;
+            left: 167px;
+            width: 209px;
+            font: normal normal 900 30px/25px Lato;
+            letter-spacing: 1.2px;
+        }
+        .skilled_se{
+            left: 579px;
+        }
+        .skilled_th{
+            left: 991px;
+        }
+        .in_house, .in_house_se, .in_house_th{
+            top: 2398px;
+            left: 232px;
+            width: 85px;
+            font: normal normal bold 20px/25px Roboto;
+            letter-spacing: 0.8px;
+        }
+        .in_house_se{
+            left: 644px;
+        }
+        .in_house_th{
+            left: 1056px;
+        }
+    }
+}
+
+.fourth_page{
+    opacity: 1;
+    .fourth_page_body{
+        width: 1046px;
+        height: 591px;
+        opacity: 1;
+        text-align: left;
+        color: #03172C;
+        .fourth_page_body_one{
+            top: 2598px;
+            left: 160px;
+            width: 517px;
+            height: 547px;
+            border: 1px solid #307FE280;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            .fourth_page_body_one_heading{
+                top: 2624px-2598px;
+                left: 185px-160px;
+                width: 215px;
+                height: 63px;
+                background: transparent url('../../assets/img/NoPath\ -\ Copy\ \(54\).png') 0% 0% no-repeat padding-box;
+            }
+            .fourth_page_body_one_p{
+                top: 2711px-2598px;
+                left: 185px-160px;
+                width: 390px;
+                font: normal normal normal 26px/32px Lato;
+                letter-spacing: 1.04px;
+            }
+            .fourth_page_body_one_ptwo{
+                top: 2827px-2598px;
+                left: 185px-160px;
+                width: 452px;
+                font: normal normal normal 24px/43px Lato;
+                letter-spacing: 0px;
+            }
+        }
+        .fourth_page_body_two{
+            top: 2554px;
+            left: 637px;
+            width: 569px;
+            height: 547px;
+            border: 1px solid #307FE280;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+            .fourth_page_body_two_heading{
+                top: 2571px-2554px;
+                left: 731px-637px;
+                width: 189px;
+                height: 53px;
+                background: transparent url('../../assets/img/NoPath\ -\ Copy\ \(51\).png') 0% 0% no-repeat padding-box;
+            }
+            .fourth_page_body_two_p{
+                top: 2655px-2554px;
+                left: 732px-637px;
+                width: 390px;
+                font: normal normal normal 26px/32px Lato;
+                letter-spacing: 1.04px;
+            }
+            .fourth_page_body_two_ptwo{
+                top: 2734px-2554px;
+                left: 733px-637px;
+                width: 452px;
+                font: normal normal normal 24px/43px Lato;
+                letter-spacing: 0px;
+            }
+        }
+        .fourth_page_body_img{
+            top: 2531px;
+            left: 594px;
+            width: 132px;
+            height: 144px;
+            background: transparent url('../../assets/img/Group\ 21.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+    .fourth_page_footer{
+        .fourth_page_footer_logo{
+            .level_star_one, .level_star_two, .level_star_three{
+                top: 3212px;
+                left: 228px;
+                width: 101px;
+                height: 82px;
+                background: transparent url('../../assets/img/leaves\ star.png') 0% 0% no-repeat padding-box;
+            }
+            .level_star_two{
+                left: 612px;
+            }
+            .level_star_three{
+                left: 992px;
+            }
+            .clutch_logo{
+                top: 3322px;
+                left: 202px;
+                width: 153px;
+                height: 43px;
+                background: transparent url('../../assets/img/NoPath\ -\ Copy\ \(51\)-1.png') 0% 0% no-repeat padding-box;
+            }
+            .appfutura_logo{
+                top: 3318px;
+                left: 543px;
+                width: 238px;
+                height: 52px;
+                background: transparent url('../../assets/img/NoPath\ -\ Copy\ \(56\).png') 0% 0% no-repeat padding-box;
+            }
+            .manifest_logo{
+                top: 3294px;
+                left: 969px;
+                width: 147px;
+                height: 99px;
+                background: transparent url('../../assets/img/NoPath\ -\ Copy\ \(57\).png') 0% 0% no-repeat padding-box;
+            }
+        }
+        font: normal normal normal 26px/32px Lato;
+        letter-spacing: 1.04px;
+        .clutch_text{
+            top: 3419px;
+            left: 202px;
+            width: 192px;
+        }
+        .appfutura_text{
+            top: 3416px;
+            left: 549px;
+            width: 241px;
+        }
+        .manifest_text{
+            top: 3419px;
+            left: 964px;
+            width: 190px;
+        }
+        .two_nine_one, .two_nine_two, .two_nine_three{
+            top: 3587px;
+            left: 202px;
+            width: 63px;
+            height: 32px;
+            font: normal normal 900 26px/32px Lato;
+            color: #307FE2;
+        }
+        .two_nine_two{
+            left: 549px;
+        }
+        .two_nine_three{
+            left: 964px;
+        }
+        .fourth_page_footer_one, .fourth_page_footer_two{
+            top: 3696px;
+            left: 664px;
+            width: 16px;
+            height: 16px;
+            background: transparent url('../../assets/img/Ellipse\ 25.svg') 0% 0% no-repeat padding-box;
+        }
+        .fourth_page_footer_two{
+            left: 687px;
+            background: transparent url('../../assets/img/Ellipse\ 26.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.fifth_page{
+    opacity: 1;
+    text-align: left;
+    letter-spacing: 0px;
+    .fifth_page_header{
+        top: 3813px;
+        left: 0px;
+        width: 1366px;
+        height: 332px;
+        color: #FFFFFF;
+        background: #307FE2 0% 0% no-repeat padding-box;
+        .fifth_page_header_head{
+            top: 3863px-3813px;
+            left: 160px;
+            width: 469px;
+            height: 52px;
+            font: normal normal normal 44px/52px Lato;
+        }
+        .fifth_page_header_body{
+            top: 3929px-3813px;
+            left: 160px;
+            width: 840px;
+            height: 85px;
+            font: normal normal normal 24px/29px Lato;
+        }
+    }
+    .fifth_page_body{
+        top: 4030px;
+        left: 104px;
+        width: 1262px;
+        height: 735px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #307FE2;
+        color: #03172C;
+        .product_dev{
+            top: 4115px-4030px;
+            left: 160px-104px;
+            width: 145px;
+            font: normal normal 900 24px/29px Lato;
+        }
+        .product_table{
+            top: 4113px-4030px;
+            left: 363px-104px;
+            width: 321px;
+            font: normal normal normal 22px/27px Lato;
+            .prod_design{
+                top: 0px;
+            }
+            .ux_design{
+                top: 44px;
+            }
+            .mvp_dev{
+                top: 44px*2;
+            }
+            .product_man{
+                top: 44px*3;
+            }
+            .full_cycle{
+                top: 44px*4;
+            }
+            .prod_viewall{
+                top: 44px*5;
+                color: #307FE2;
+            }
+            .prod_view_arrow{
+                top: 44px*5;
+                left: 462px-363px;
+            }
+        }
+        .product_img{
+            top: 4084px-4030px;
+            left: 846px-104px;
+            width: 450px;
+            height: 270px;
+            background: transparent url('../../assets/img/pexels-fauxels-3183153.png') 0% 0% no-repeat padding-box;
+        }
+        .tech{
+            top: 4463px-4030px;
+            left: 160px-104px;
+            width: 123px;
+            font: normal normal 900 24px/29px Lato;
+        }
+        .tech_table{
+            top: 4459px-4030px;
+            left: 363px-104px;
+            width: 464px;
+            height: 247px;
+            font: normal normal normal 22px/27px Lato;
+            .backend{
+                top: 0px;
+            }
+            .web{
+                top: 4503px-4459px;
+            }
+            .android_dev{
+                top: (4503px-4459px)*2;
+            }
+            .ios_dev{
+                top: (4503px-4459px)*3;
+            }
+            .cloud_ser{
+                top: (4503px-4459px)*4;
+            }
+            .tech_viewmore{
+                top: (4503px-4459px)*5;
+                color: #307FE2;
+            }
+            .tech_view_arrow{
+                top: (4503px-4459px)*5;
+                left: 463px-363px;
+            }
+            .devopt{
+                top: (4503px-4459px)*0;
+                left: 612px-363px;
+            }
+            .database{
+                top: (4503px-4459px)*1;
+                left: 612px-363px;
+            }
+            .iot{
+                top: (4503px-4459px)*2;
+                left: 612px-363px;
+            }
+            .opensource{
+                top: (4503px-4459px)*3;
+                left: 612px-363px;
+            }
+            .tech_design{
+                top: (4503px-4459px)*4;
+                left: 612px-363px;
+            }
+        }
+        .tech_img{
+            top: 4436px-4030px;
+            left: 846px-104px;
+            width: 450px;
+            height: 270px;
+            background: transparent url('../../assets/img/pexels-alex-knight-2599244.png') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.six_page{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #03172C;
+    opacity: 1;
+    .six_page_heading{
+        top: 4882px;
+        left: 160px;
+        width: 570px;
+        font: normal normal normal 44px/52px Lato;
+    }
+    .six_page_heading_horline{
+        top: 4915px;
+        left: 774px;
+        width: 97px;
+        border: 1px solid #03172C;
+    }
+    .six_page_heading_logo{
+        top: 4987px;
+        left: 119px;
+        width: 1060px;
+        height: 106px;
+        background: transparent url('../../assets/img/Capture 12.png') 0% 0% no-repeat padding-box;
+    }
+    .six_page_body_head{
+        top: 5153px;
+        left: 156px;
+        width: 620px;
+        font: normal normal 900 44px/52px Lato;
+    }
+    .six_page_body_para{
+        top: 5226px;
+        left: 156px;
+        width: 840px;
+        font: normal normal normal 24px/29px Lato;
+    }
+    .six_page_alok_img{
+        top: 5352px;
+        left: 156px;
+        width: 500px;
+        height: 372px;
+        background: transparent url('../../assets/img/NoPath - Copy (24).png') 0% 0% no-repeat padding-box;
+    }
+    .six_page_footer{
+        .six_page_footer_img{
+            top: 5354px;
+            left: 986px;
+            width: 53px;
+            height: 39px;
+            background: transparent url('../../assets/img/Group\ 35.svg') 0% 0% no-repeat padding-box;
+        }
+        .six_page_footer_body{
+            top: 5427px;
+            left: 735px;
+            width: 555px;
+            text-align: center;
+            font: normal normal normal 34px/41px Lato;
+        }
+        .alok{
+            top: 5611px;
+            left: 926px;
+            width: 200px;
+            font: normal normal 900 34px/41px Lato;
+        }
+        .ixigo{
+            top: 5649px;
+            left: 976px;
+            width: 73px;
+            height: 41px;
+            background: transparent url('../../assets/img/ixigo-1.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.seven_page{
+    opacity: 1;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: left;
+    .background_plane{
+        top: 5844px;
+        left: 0.0003662109375px;
+        width: 868px;
+        height: 765px;
+        background: #307FE2 0% 0% no-repeat padding-box;
+    }
+    .backgroung_img{
+        top: 5844px;
+        left: 633px;
+        width: 733px;
+        height: 765px;
+        background: transparent url('../../assets/img/pexels-sharon-mccutcheon-1148998.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+    }
+    .header_img{
+        top: 5844px;
+        left: 411px;
+        width: 450px;
+        height: 450px;
+        background-color: #307FE2;
+        border-radius: 50%;
+        .one,.two,.three,.four,.five,.six,.seven{
+            top: 5871px-5844px;
+            left: 658px-411px;
+            width: 14px;
+            height: 14px;
+            background: #8FC0F4  0% 0% no-repeat padding-box;
+            border-radius: 50%;
+        }
+        .one{
+            top: 5916px-5844px;
+            left: 530px-411px;
+            background: #1E3F63 0% 0% no-repeat padding-box;
+        }
+        .three{
+            top: 5916px-5844px;
+            left: 766px-411px;
+        }
+        .four{
+            top: 6032px-5844px;
+            left: 821px-411px;
+        }
+        .five{
+            top: 6171px-5844px;
+            left: 766px-411px;
+        }
+        .six{
+            top: 6216px-5844px;
+            left: 658px-411px;
+        }
+        .seven{
+            top: 6171px-5844px;
+            left: 530px-411px;
+        }
+    }
+    .seven_page_heading{
+        top: 5993px;
+        left: 211px;
+        width: 524px;
+        height: 79px;
+        font: normal normal 900 66px/79px Lato;
+    }
+    .winning_cup{
+        top: 6070px;
+        left: 576px;
+        width: 159px;
+        height: 34px;
+        font: normal normal 900 28px/34px Lato;
+    }
+    .job_get{
+        top: 6234px;
+        left: 44px;
+        width: 200px;
+        height: 46px;
+        font: normal normal 900 38px/46px Lato;
+    }
+    .para{
+        top: 6324px;
+        left: 44px;
+        width: 521px;
+        height: 144px;
+        text-align: left;
+        font: normal normal normal 24px/29px Lato;
+    }
+    .view{
+        top: 6507px;
+        left: 44px;
+        width: 134px;
+        height: 29px;
+        .viewall{
+            width: 87px;
+            font: normal normal normal 24px/29px Lato;
+        }
+        .viewarrow{
+            top: 6515px-6507px;
+            left: 151px-44px;
+            width: 27px;
+            height: 13px;
+        }
+    }
+    .seven_page_footer{
+        .vorto_logo{
+            top: 6745px;
+            left: 200px;
+            width: 200px;
+            height: 46px;
+            background: transparent url('../../assets/img/Group\ 410.svg') 0% 0% no-repeat padding-box;
+        }
+        .dell_logo{
+            top: 6745px;
+            left: 427px;
+            width: 131px;
+            height: 41px;
+            background: transparent url('../../assets/img/Path\ 2.svg') 0% 0% no-repeat padding-box;
+        }
+        .micromax_logo{
+            top: 6757px;
+            left: 625px;
+            width: 160px;
+            height: 30px;
+            background: transparent url('../../assets/img/Path\ 1.svg') 0% 0% no-repeat padding-box;
+        }
+        .ixigo_logo{
+            top: 6749px;
+            left: 852px;
+            width: 94px;
+            height: 49px;
+            background: transparent url('../../assets/img/ixigo.svg') 0% 0% no-repeat padding-box;
+        }
+        .precium_logo{
+            top: 6749px;
+            left: 1017px;
+            width: 150px;
+            height: 43px;
+            background: transparent url('../../assets/img/Logo\ Black.svg') 0% 0% no-repeat padding-box;
+        }
+        .axis_logo{
+            top: 6914px;
+            left: 200px;
+            width: 177px;
+            height: 49px;
+            background: transparent url('../../assets/img/AxisRooms.svg') 0% 0% no-repeat padding-box;
+        }
+        .sixgill_logo{
+            top: 6899px;
+            left: 438px;
+            width: 110px;
+            height: 71px;
+            background: transparent url('../../assets/img/Group\ 7.svg') 0% 0% no-repeat padding-box;
+        }
+        .nearpe_logo{
+            top: 6916px;
+            left: 633px;
+            width: 138px;
+            height: 46px;
+            background: transparent url('../../assets/img/Group\ 8.svg') 0% 0% no-repeat padding-box;
+        }
+        .fashion_logo{
+            top: 6914px;
+            left: 847px;
+            width: 153px;
+            height: 41px;
+            background: transparent url('../../assets/img/Group\ 9.svg') 0% 0% no-repeat padding-box;
+        }
+        .railways_logo{
+            top: 6878px;
+            left: 1083px;
+            width: 93px;
+            height: 93px;
+            background: transparent url('../../assets/img/Group\ 4.svg') 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.eight_page{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #03172C;
+    opacity: 1;
+    .eight_page_heading{
+        top: 7062px;
+        left: 407px;
+        width: 552px;
+        text-align: center;
+        font: normal normal 900 44px/52px Lato;
+    }
+    .eight_page_body{
+        top: 7268px;
+        left: 156px;
+        width: 1020px;
+        height: 613px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #307FE2;
+        .left_body{
+            width: 546px;
+            height: 613px;
+            background: transparent url('../../assets/img/pexels-fotografierende-1111597.png') 0% 0% no-repeat padding-box;
+            color: #FFFFFF;
+            .left_body_heading_one{
+                top: 7279px-7268px;
+                left: 201px-156px;
+                width: 289px;
+                text-align: right;
+                font: normal normal 900 36px/44px Lato;
+            }
+            .left_body_heading_two{
+                top: 7323px-7268px;
+                left: 200px-156px;
+                width: 351px;
+                font: normal normal 900 36px/44px Lato;
+            }
+            .left_body_body{
+                top: 7434px-7268px;
+                left: 200px-156px;
+                width: 339px;
+                font: normal normal 900 24px/26px Lato;
+            }
+        }
+        .right_body{
+            letter-spacing: 0.15px;
+            .full_name, .email, .contact{
+                top: 7365px-7268px;
+                left: 744px-156px;
+                width: 63px;
+                font: normal normal normal 14px/26px Lato;
+            }
+            .email{
+                top: 7415px-7268px;
+            }
+            .contact{
+                top: 7455px-7268px;
+            }
+            .hor_line_one, .hor_line_two, .hor_line_three, .message{
+                top: 7389px-7268px;
+                left: 744px-156px;
+                width: 375px;
+                height: 0px;
+                border: 1px solid #307FE2;
+            }
+            .hor_line_two{
+                top: 7435px-7268px;
+            }
+            .hor_line_three{
+                top: 7479px-7268px;
+            }
+            .message{
+                top: 7502px-7268px;
+                width: 380px;
+                height: 174px;
+                border-radius: 5px;
+                .text{
+                    top: 115px;
+                    left: 10px;
+                }
+            }
+            .capta{
+                top: 7749px-7268px;
+                left: 744px-156px;
+                width: 82px;
+                height: 25px;
+                color: #03172C;
+                font: normal normal normal 21px/40px Lato;
+                letter-spacing: 0.23px;
+            }
+            .capta_load{
+                top: 7753px-7268px;
+                left: 834px-156px;
+                width: 14px;
+                height: 18px;
+                background: transparent url('../../assets/img/Icon\ material-replay.svg') 0% 0% no-repeat padding-box;
+            }
+            .capta_write{
+                top: 7744px-7268px;
+                left: 866px-156px;
+                width: 83px;
+                height: 38px;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border: 1px solid #307FE2;
+            }
+            .submit_but{
+                top: 7732px-7268px;
+                left: 975px-156px;
+                width: 156px;
+                height: 61px;
+                background: #307FE2 0% 0% no-repeat padding-box;
+                border-radius: 5px;
+                .submit_text{
+                    top: 7748px-7732px;
+                    left: 1016px-975px;
+                    width: 72px;
+                    height: 27px;
+                    font: normal normal normal 22px/27px Lato;
+                    letter-spacing: 0.88px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+.website_footer{
+    top: 7931px;
+    width: 1365px;
+    height: 512px;
+    background: #E0EDFC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: left;
+    color: #03172C;
+    .website_footer_logo{
+        top: 7978px-7931px;
+        left: 66px;
+        width: 343px;
+        height: 42px;
+        .website_footer_logo_upar{
+            top: 30px;
+            left: 66px-66px;
+            width: 100px;
+            height: 50px;
+            background: transparent url('../../assets/img/Group\ 2-1.svg') 0% 0% no-repeat padding-box;
+        }
+        .website_footer_logo_remote{
+            top: 7978px-7978px;
+            left: 152px-66px;
+            width: 257px;
+            font: normal normal 900 40px/88px Lato;
+            letter-spacing: 5.46px;
+        }
+    }
+    .website_footer_body_one, .website_footer_body_two, .website_footer_body_three, .website_footer_body_four{
+        top: 8084px-7940px;
+        left: 67px;
+        .website_footer_body_one_head{
+            width: 205px;
+            font: normal normal 900 40px/128px Lato;
+            letter-spacing: 6.24px;
+        }
+        width: 130px;
+        font: normal normal normal 26px/100px Lato;
+        letter-spacing: 4.06px;
+        .website_footer_body_one_body_one{
+            top: 8193px-8084px;
+        }
+        .website_footer_body_one_body_two{
+            top: 8243px-8084px;
+        }
+        .website_footer_body_one_body_three{
+            top: 8294px-8084px;
+        }
+        .website_footer_body_one_body_four{
+            top: 8346px-8084px;
+        }
+    }
+    .website_footer_body_two{
+        left: 409px;
+    }
+    .website_footer_body_three{
+        left: 752px;
+    }
+    .website_footer_body_four{
+        left: 1094px;
+    }
+}
